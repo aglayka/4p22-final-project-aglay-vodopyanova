@@ -1,0 +1,60 @@
+.common__button {
+    outline: none;
+    border: none;
+    background: #1D96B7;
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 0;
+    transition: .2s background-color;
+    cursor: pointer;
+    height: 49px;
+    width: 150px;
+    font-weight: 400;
+    font-size: 20px;
+
+    &:hover {
+        background: rgb(17, 82, 142);
+    }
+
+    &_light {
+        outline: none;
+        border: none;
+        background: rgb(17, 82, 142);
+        padding: 10px 20px;
+        color: #ffffff;
+        border-radius: 0;
+        transition: .2s background-color;
+        cursor: pointer;
+            
+            &:hover {
+            background: #1D96B7;
+        }
+    }
+
+    &_light.common__button_disabled {
+         background: #787878;
+        color: #ffffff;
+    }
+
+    &_dark.common__button_disabled {
+        background: #787878;
+        color: #5b5a5a;
+    }
+
+    &_disabled {
+        pointer-events: none;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1440px) {
+        padding: calc(10/1440 * 100vw) calc(20/1440 * 100vw); 
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+        padding: calc(10/768 * 100vw) calc(20/768 * 100vw);
+    }
+}
+
+
+
+
+

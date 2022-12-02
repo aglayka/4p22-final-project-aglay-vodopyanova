@@ -1,0 +1,35 @@
+.filter__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select__box {
+  text-align: center;
+  margin-left: 50px;
+  color: #005c8a; 
+}
+
+.category__list {
+  color: #005c8a; 
+  height: 49px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.basket__image {
+  position: relative;
+  margin-right: 50px;
+  top: 0;
+}
+
+.card__product {
+  position: relative;
+}
+  
+.card__container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}

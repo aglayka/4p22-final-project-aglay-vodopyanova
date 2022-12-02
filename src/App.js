@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Feedback from './pages/Feedback/Feedback';
+import DefaultLayot from './layot/DefaultLayot'
+import Product from './pages/Product/Product';
+import { Route, Routes } from 'react-router-dom';
+
+import Indexpage from './pages/Indexpage/Indexpage';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Routes>
+        <Route path={'/'} element={<DefaultLayot />} >
+          <Route index element={<Indexpage />} />
+          <Route path={'product'}>
+            <Route path={':cardId'} element={<Product />} />
+          </Route>
+        </Route>
+        <Route path={'feedback'} element={<Feedback />} />
+      </Routes>
+     </div>
   );
 }
 

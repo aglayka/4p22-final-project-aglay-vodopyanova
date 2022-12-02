@@ -1,0 +1,116 @@
+.footer {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: center;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  margin-top: 50px;
+  bottom: 0;
+}
+
+.footer__subscrib {
+  width: 500px;
+  display: flex;
+}
+
+.footer__title {
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 1141px) and (max-width: 1920px) {    
+      
+  .footer {
+    height: calc(100 / 1920 * 100vw);
+    padding: calc(10 / 1920 * 100vw);
+    margin-top: calc(50 / 1920 * 100vw);
+    bottom: 0;
+  }
+  
+  .footer__subscrib {
+    width: calc(500 / 1920 * 100vw);
+  }
+  
+  .footer__title {
+    font-weight: calc(400 / 1920 * 100vw);
+    font-size: calc(24 / 1920 * 100vw);
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+  .footer {
+    height: calc(100 / 1440 * 100vw);
+    padding: calc(10 / 1440 * 100vw);
+    margin-top: calc(50 / 1440 * 100vw);
+    bottom: 0;
+  }
+  
+  .footer__subscrib {
+    width: calc(500 / 1440 * 100vw);
+  }
+  
+  .footer__title {
+    font-weight: calc(400 / 1440 * 100vw);
+    font-size: calc(24 / 1440 * 100vw);
+  } 
+}
+      
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .footer {
+    height: calc(100 / 1280 * 100vw);
+    padding: calc(10 / 1280 * 100vw);
+    margin-top: calc(50 / 1280 * 100vw);
+    bottom: 0;
+  }
+  
+  .footer__subscrib {
+    width: calc(500 / 1280 * 100vw);
+  }
+  
+  .footer__title {
+    font-weight: calc(400 / 1280 * 100vw);
+    font-size: calc(24 / 1280 * 100vw);
+  }
+}
+      
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .footer {
+    height: calc(100 / 768 * 100vw);
+    padding: calc(10 / 768 * 100vw);
+    margin-top: calc(50 / 768 * 100vw);
+    bottom: 0;
+  }
+  
+  .footer__subscrib {
+    width: calc(500 / 768 * 100vw);
+  }
+  
+  .footer__title {
+    font-weight: calc(400 / 768 * 100vw);
+    font-size: calc(22 / 768 * 100vw);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .footer {
+    height: calc(100 / 480 * 100vw);
+    padding: calc(10 / 480 * 100vw);
+    margin-top: calc(50 / 480 * 100vw);
+    bottom: 0;
+  }
+  
+  .footer__subscrib {
+    width: calc(500 / 480 * 100vw);
+  }
+  
+  .footer__title {
+    font-weight: calc(400 / 480 * 100vw);
+    font-size: calc(20 / 480 * 100vw);
+  }
+}
