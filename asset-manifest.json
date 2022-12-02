@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-aglay-vodopyanova/static/css/main.073c9b0a.css",
-    "main.js": "/4p22-final-project-aglay-vodopyanova/static/js/main.2f8faae8.js",
-    "static/js/787.4364bcc7.chunk.js": "/4p22-final-project-aglay-vodopyanova/static/js/787.4364bcc7.chunk.js",
-    "static/media/logo.svg": "/4p22-final-project-aglay-vodopyanova/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/4p22-final-project-aglay-vodopyanova/static/css/main.6147e86b.css",
+    "main.js": "/4p22-final-project-aglay-vodopyanova/static/js/main.d7d51473.js",
+    "static/media/feedback.png": "/4p22-final-project-aglay-vodopyanova/static/media/feedback.86a1eaf77f788b7fc745.png",
+    "static/media/logo.png": "/4p22-final-project-aglay-vodopyanova/static/media/logo.a3137e45ad046f1d305c.png",
+    "static/media/logo2.png": "/4p22-final-project-aglay-vodopyanova/static/media/logo2.9af3944ea27174221bca.png",
     "index.html": "/4p22-final-project-aglay-vodopyanova/index.html",
-    "main.073c9b0a.css.map": "/4p22-final-project-aglay-vodopyanova/static/css/main.073c9b0a.css.map",
-    "main.2f8faae8.js.map": "/4p22-final-project-aglay-vodopyanova/static/js/main.2f8faae8.js.map",
-    "787.4364bcc7.chunk.js.map": "/4p22-final-project-aglay-vodopyanova/static/js/787.4364bcc7.chunk.js.map"
+    "main.6147e86b.css.map": "/4p22-final-project-aglay-vodopyanova/static/css/main.6147e86b.css.map",
+    "main.d7d51473.js.map": "/4p22-final-project-aglay-vodopyanova/static/js/main.d7d51473.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.2f8faae8.js"
+    "static/css/main.6147e86b.css",
+    "static/js/main.d7d51473.js"
   ]
 }
